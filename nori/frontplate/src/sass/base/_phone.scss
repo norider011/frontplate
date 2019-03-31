@@ -1,0 +1,57 @@
+/*!------------ 
+
+
+.phone{
+  height:100vh;
+  width:100%;
+  background: linear-gradient(to bottom, #97918e 0%, #c3bbb8 100%);
+  height: 800px;
+  }
+.phone-contents{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+.content-big{
+  padding:120px 0 0 0;
+}
+.content-big h2{
+  font-size:40px;
+  color:white;
+}
+.content-sl{
+  padding:80px 0 0 0;
+  color: white;
+  font-size:15px;
+}
+.content-tl{
+  padding:20px 0 0 0;
+  color: white;
+  font-size:15px;
+}
+.phone-image{
+  position:relative;
+}
+.phone-inner{
+  position:absolute;
+}
+
+.phone-up{
+  position: absolute;
+  top:10px;
+  left:130px;
+}
+.phone-right{
+  position:absolute;
+  top:180px;
+  left:180px;
+  z-index: 1;
+}
+.phone-left{
+  position:absolute;
+  top:100px;
+  left:0;
+  z-index: 2;
+
+}
+----------------*/

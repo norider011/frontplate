@@ -1,0 +1,32 @@
+footer{
+	background-color:black;
+}
+
+.footer-inner{
+	display:flex;
+	justify-content: space-between;
+	padding:5px 0;
+}
+.left-footer{
+	color:white;
+	padding-top: 6px;
+	.p{
+ 		vertical-align:center; 
+	}
+}
+
+
+.right-footer{
+	padding-right:150px;
+}
+
+.right-footer ul{
+	display: flex;
+	list-style: none;
+
+}
+.icon-modules{
+	padding-right: 20px;
+}
+
+

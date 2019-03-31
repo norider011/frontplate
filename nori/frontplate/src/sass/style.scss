@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@import 'setting';
+@import 'base/sanitize';
+@import 'base/mixin';
+@import "base/placeholders";
+@import 'base/base';
+
+@import "lib/media-queries";
+@import "lib/clearfix";
+@import 'lib/flex';
+
+// @import 'sprites/icon';
+
+@import "components/header";
+@import "components/hero";
+@import "components/nav";
+
+@import 'layout/grid';
+@import 'layout/layout';
+
+@import "components/catch.scss";
+@import "components/feature.scss";
+@import "components/service.scss";
+@import "components/news.scss";
+@import "components/icon.scss";
+@import "components/form.scss";
+@import "components/footer.scss";
+
+
+
+
+
+

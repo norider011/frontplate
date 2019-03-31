@@ -1,0 +1,151 @@
+.catch{
+  height:800px;
+  width:100%;
+  background: -moz-linear-gradient(top, #98928f, #c2bab7);
+  background: -webkit-linear-gradient(top, #98928f, #c2bab7);
+  background: linear-gradient(to bottom, #98928f, #c2bab7);
+
+}
+.catch__content{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+
+    &--left-text{
+  padding:190px 0 0 0;
+      h2{
+        font-size:40px;
+        color:white;
+      }
+  }
+    &--left-secondary{
+        padding:80px 0 0 0;
+        color: white;
+        font-size:20px;
+    }
+    &--left-third{
+        padding:20px 0 0 0;
+        color: white;
+        font-size:20px;
+    }
+}
+
+
+
+
+.catch__image{
+  position:relative;
+
+  &__inner{
+  position:absolute;
+    &-left{
+      position:absolute;
+      top:190px;
+      left:0;
+      right:40px;
+      z-index: 2;
+    } 
+    &-up{
+      position: absolute;
+      top:20px;
+      left:130px;
+    }
+    &-right{
+      position:absolute;
+      top:290px;
+      left:220px;
+      z-index: 1;
+    }
+  }
+}
+
+
+
+/*!------------ 
+　レスポンシブ 1024px
+----------------*/
+@media(max-width:1024px){
+.l-container {
+    position: relative;
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+.catch{
+  height:450px;
+  background:none;
+
+  &__background{
+  height: 450px;
+  width:100%;
+  position: absolute;
+  z-index: 5;
+  background: rgba(0,0,0,.5);
+  }
+  &__content{
+  display: block;
+  position: relative;
+    &--left{
+   text-align: center;
+      &-text{
+        padding-top:50px;
+          h2{
+          font-size: 30px;
+          font-weight:lighter;
+          position: relative;
+          z-index: 8;
+             }
+        }
+       &-secondary{
+        padding-top:10px;
+        position: relative;
+        line-height: 1.5;
+        font-size:20px;
+        z-index:8;
+        }
+        &-third p{
+        font-size:20px;
+        position: relative;
+        z-index:8;
+        }
+       }
+     }
+  &__image{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    right: 0;
+      &__inner-left img{
+        height:230px;
+        position: absolute;
+        left: -211px;
+        top: -98px;
+        }
+      &__inner-up img{
+        height:230px;
+        left:-250px;
+        position: absolute;
+        top:-100px;
+        }
+      &__inner-right img{
+        height:230px;
+        position: absolute;
+        top: -220px;
+        left: -320px;
+        }
+    }
+
+}
+}
+
+/*!------------ 
+　　レスポンシブ 780px
+----------------*/
+@media(max-width:780px){
+.hidden-br{
+  display:none;
+}
+}

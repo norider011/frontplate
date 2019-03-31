@@ -1,0 +1,137 @@
+@media screen and (min-width:780px){
+.hero {
+	height:100vh;
+	width:100%;
+	background-image:url(../images/cat.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero__inner {
+	display: block;
+	position: relative;
+	width: 100%;
+	transform: translateY(-50%);
+	top: 50%;
+}
+
+.hero__title {
+	font-weight: lighter;
+	font-size:160px;
+	font-family: "Lato-Light";
+	letter-spacing: .083em;
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items: center;
+	color:$color-hero;
+}
+
+.hero__text {
+	font-family: "Lato-Hairline";
+	font-size:60px;
+	letter-spacing: .083em;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	color:$color-hero;
+}
+}
+
+/*!------------ 
+　レスポンシブ 1024px
+----------------*/
+@media (max-width: 1024px){
+.hero{	
+	background-image: url(../images/cat.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+	position:relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	min-width:100%;
+
+}
+.hero__inner{
+	padding-top:100px;
+	color:white;
+
+}
+ .hero__title{
+ 	margin-top: 100px;
+	font-size:100px;
+	letter-spacing: .063em;
+	font-weight: lighter;
+}
+.hero__text{
+	font-size:30px;
+	letter-spacing: .063em;
+	font-weight: lighter;
+}
+.hero__btn {
+    display: block;
+    cursor: pointer;
+    pointer-events: auto;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+    right: 0;
+}
+.hero__arrow {
+    display: block;
+    content: "";
+    width: 12px;
+    position: relative;
+    top: 13px;
+    left: 9px;
+    border-top: 6px solid #fff;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+}
+
+
+/*!------------ 
+　レスポンシブ 780px
+----------------*/
+@media(max-width:780px){
+.hero{
+	background-image: url(../images/cat.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+	position:relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	min-width:100%;
+}
+
+.hero__inner{
+	padding-top:150px;
+	color:white;
+
+}
+ .hero__title{
+	font-size:40px;
+	letter-spacing: .063em;
+	font-weight: lighter;
+}
+
+.hero__text{
+	letter-spacing: .063em;
+	font-weight: lighter;
+}
+
+}
+
+
+
+
